@@ -4,7 +4,9 @@ import Quotes from "./Quotes";
 function App() {
   return (
     <div className="App">
-      <Quotes />
+      <header className="App-header">
+        <Quotes />
+      </header>
     </div>
   );
 }

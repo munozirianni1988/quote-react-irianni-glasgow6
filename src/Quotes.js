@@ -19,9 +19,15 @@ function Quotes() {
 
   return (
     <div className="container">
-      <span>{quotes.quote}</span>
-      <span>{quotes.author}</span>
-      <button onClick={randomQuote}>Get a new quote</button>
+      <div>
+        <span>{quotes.quote}</span>
+      </div>
+      <div>
+        <span>{quotes.author}</span>
+      </div>
+      <div>
+        <button onClick={randomQuote}>Get a new quote</button>
+      </div>
     </div>
   );
 }
