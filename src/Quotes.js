@@ -39,8 +39,6 @@ function Quotes() {
         <div>
           <div>
             <span key={index}>{quote.quote}</span>
-          </div>
-          <div>
             <span key={id}>{quote.author}</span>
           </div>
         </div>
